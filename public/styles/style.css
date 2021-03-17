@@ -1,0 +1,298 @@
+@font-face {
+  font-family: product;
+  src: url("../assets/fonts/ProductSans.ttf");
+}
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.wrapper {
+  color: #fff;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #000;
+}
+
+p {
+  color: #000;
+  font-size: 0.9em;
+}
+
+h6 {
+  font-weight: 800;
+}
+
+.btn-yellow {
+  background-color: #f8e71c;
+  color: #000;
+  border: #f8e71c;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-heading {
+  font-family: product;
+  font-size: 3em;
+}
+
+.text-sub-heading {
+  font-family: product;
+}
+
+.text-yellow {
+  color: #f8e71c;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-blue {
+  color: #0099d7;
+}
+
+.bg-blue {
+  background-color: #0099d7;
+}
+
+.bg-yellow {
+  background-color: #fcb72b;
+}
+
+.bg-dblue {
+  background-color: #020248;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+.section-top {
+  padding-top: 100px;
+  background-image: url("../assets/img/topbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-marble {
+  background-image: url("../assets/img/topbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-top p {
+  max-width: 500px;
+}
+
+.feature-card {
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.feature-card-content {
+  padding: 20px;
+}
+
+.section-why .feature-card {
+  padding: 30px;
+}
+
+.section-why {
+  padding: 100px 0;
+}
+
+.section-feature {
+  padding: 60px 0;
+}
+
+.section-text {
+  padding: 50px 0;
+}
+
+.section-eve .bg-blue {
+  padding: 100px;
+}
+
+.section-eve input {
+  margin-bottom: 15px;
+}
+
+.section-eve select {
+  margin-bottom: 15px;
+}
+
+.bg-ymarble {
+  background-image: url("../assets/img/ymarble.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: unset;
+}
+
+.feature-icon {
+  height: 40px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.section-app article {
+  margin-bottom: 30px;
+}
+
+.section-app-icons {
+  margin-top: 50px;
+}
+
+.section-app {
+  padding: 50px 0;
+}
+
+.section-contact {
+  padding: 100px 0;
+}
+
+.section-why {
+  background-image: url("../assets/img/room.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-top .input-group {
+  margin-top: 50px;
+  padding: 8px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.input-group input {
+  border: unset;
+}
+
+.fixed-top.scrolled {
+  -webkit-box-shadow: 0px 7px 45px -7px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 7px 45px -7px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 7px 45px -7px rgba(0, 0, 0, 0.42);
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.section-cov {
+  padding: 50px 0;
+}
+
+.section-cov article {
+  margin-bottom: 20px;
+}
+
+.section-cov-img {
+  padding: 20px;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact input {
+  margin-bottom: 20px;
+}
+
+.section-contact select {
+  margin-bottom: 20px;
+}
+
+.kang {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  height: 400px;
+  width: auto;
+}
+
+footer {
+  padding: 40px 0;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+.footer-top {
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid rgb(63, 61, 61);
+}
+
+.footer-bottom {
+  padding-top: 30px;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icons img {
+  height: 20px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.contact-card {
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 60px;
+}
+
+.contact-card p {
+  color: #13254a;
+}
+
+.footer-bottom p {
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+
+@media screen and (min-width: 768px) {
+  .section-top {
+    height: 100vh;
+  }
+
+  .social-icons-wrapper {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature-card {
+    margin-bottom: 20px;
+  }
+
+  .kang {
+    display: none;
+  }
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+}
