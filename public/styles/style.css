@@ -45,6 +45,7 @@ h6 {
 .text-heading {
   font-family: product;
   font-size: 3em;
+  font-weight: 900;
 }
 
 .text-sub-heading {
@@ -271,6 +272,14 @@ footer {
 .footer-bottom p {
   letter-spacing: 2px;
   font-size: 0.8em;
+}
+
+.section-top-test {
+  padding-left: 40px;
+}
+
+.btn {
+  font-weight: 900;
 }
 
 @media screen and (min-width: 768px) {
