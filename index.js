@@ -19,7 +19,10 @@ app.get("/", function (req, resp) {
   resp.sendFile(path.join(__dirname, "public", "index.html"))
 })
 
+app.get("/privacy-policy", function (req, resp) {
+  resp.sendFile(path.join(__dirname, "public", "privacy.html"))
+})
+
 app.listen(port, function () {
   console.log(`Server started at ${port}`)
 })
-
